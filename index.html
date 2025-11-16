@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1 class="main-title">Lær Pseudo-elementer</h1>
+
+    <ul class="learning-list">
+        <li>Forstå ::before og ::after</li>
+        <li>Bruke :hover på knapper</li>
+        <li>Style annenhver linje med :nth-child</li>
+        <li class="no-star">Ekskludere elementer med :not()</li>
+        <li>Bruke :first-child og :last-child</li>
+    </ul>
+
+    <section class="content-section">
+        <div class="subsection">Første underseksjon</div>
+        <div class="subsection">Andre underseksjon (fremhevet)</div>
+        <div class="subsection">Tredje underseksjon</div>
+    </section>
+
+    <section class="highlight-section">
+        <p class="highlight-box">
+            Dette er en fremhevet seksjon med dekorative pseudo-elementer.
+        </p>
+    </section>
+
+    <section class="interaction-section">
+        <label for="navn">Tekstfelt med :focus:</label>
+        <input type="text" id="navn" placeholder="Klikk her for å se fokus-effekt">
+
+        <button class="btn">Hold musen over knappen</button>
+    </section>
+</body>
+</html>
